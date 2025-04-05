@@ -220,28 +220,3 @@ footer {
     margin-top: auto;
 }
 
-@media (max-width: 768px) {
-    .contenedor {
-        flex-direction: column;
-    }
-    
-    .menu-horizontal {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .menu-vertical {
-        position: static;
-        width: 100%;
-    }
-    
-    h1 {
-        font-size: 2rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        font-size: 18px;
-    }
-}
