@@ -7,6 +7,16 @@
     font-family:Georgia, "Times New Roman", Times, serif;
 }
 
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template:
+      "header  header header"  100px
+      "navbar  main   sidebar" auto
+      "footer  footer footer"  100px /
+      200px    auto   200px;
+  }
+}
+
 	.h2{
 	color:#666699;
 	
@@ -161,7 +171,7 @@ font-family:"Courier New", Courier, monospace;
 .menu-secundario a:hover {
     background-color:#ebafab;
 }
-.descripción{
+.descripciÃ³n{
 background-color:#779BB0;
 color:#495E8D;
 
